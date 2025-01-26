@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.logo img{
+    width: 100px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 1rem;
+}
+button{
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: hsl(136, 65%, 51%);
+    color: white;
+    border-radius: 25px;
+}
