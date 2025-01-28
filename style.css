@@ -52,10 +52,9 @@ main {
 
 }
 
-
 .parent-flex {
     height: 100vh;
-    width: 1440px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,29 +62,31 @@ main {
 }
 
 .container {
-    
+    height: 100%;
     width: 100%;
     display: flex;
     background-color: rgb(83, 98, 227);
 }
 
-main .container .left {
+.left {
     display: flex;
+    position: ;
     width: 50%;
     height: 100%;
     flex-direction: column;
     justify-content: center;
-    margin: 0px 20px 20px 20px;
-    padding: 40px;
+    align-items: center;
+    
 
 }
 
 .right {
-    background-image: url(./images/bg-intro-desktop.svg);
+    align-items: right;
+    background-image: url(./images/bg-intro-desktop.svg) width;
     background-repeat: no-repeat;
-    background-size: 100rvh;
+    background-size: ;
     position;
-    margin: 0;
+    margin: ;
 
 }
 
